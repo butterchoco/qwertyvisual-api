@@ -15,12 +15,12 @@
       "type": "string"
     },
     "client": {
-      "model": "client",
-      "via": "testimonials"
+      "via": "testimonials",
+      "model": "client"
     },
     "project": {
-      "model": "project",
-      "via": "testimonial"
+      "via": "testimonial",
+      "model": "project"
     }
   }
 }

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "projects",
   "info": {
-    "name": "Project"
+    "name": "Project",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -46,12 +47,15 @@
       "via": "projects"
     },
     "client": {
-      "model": "client",
-      "via": "projects"
+      "via": "projects",
+      "model": "client"
     },
     "testimonial": {
       "via": "project",
       "model": "testimonial"
+    },
+    "youtubeUrl": {
+      "type": "string"
     }
   }
 }

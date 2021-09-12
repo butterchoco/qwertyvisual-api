@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "clients",
   "info": {
-    "name": "Client"
+    "name": "Client",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -24,6 +25,18 @@
     "testimonials": {
       "via": "client",
       "collection": "testimonial"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

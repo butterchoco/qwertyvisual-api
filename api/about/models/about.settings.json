@@ -1,8 +1,9 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "abouts",
   "info": {
-    "name": "About"
+    "name": "About",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,7 +15,7 @@
     "name": {
       "type": "string"
     },
-    "vision": {
+    "description": {
       "type": "text"
     },
     "founderImage": {
@@ -41,7 +42,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "description": {
+    "vision": {
       "type": "text"
     }
   }
