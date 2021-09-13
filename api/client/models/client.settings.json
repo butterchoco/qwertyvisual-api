@@ -37,6 +37,11 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "rating": {
+      "type": "integer",
+      "max": 5,
+      "min": 0
     }
   }
 }
