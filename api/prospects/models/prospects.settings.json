@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prospects",
+  "info": {
+    "name": "prospects"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "project": {
+      "type": "string"
+    },
+    "referral": {
+      "type": "string"
+    },
+    "note": {
+      "type": "text"
+    }
+  }
+}
