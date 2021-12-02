@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "name": "About Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyIntro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "company.about"
+    },
+    "companyVisionMission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "company.company-vision-mission"
+    },
+    "best_clients": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.best-clients"
+    }
+  }
+}

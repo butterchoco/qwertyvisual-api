@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "Landing Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.hero"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "company.about"
+    },
+    "best_projects": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.best-projects"
+    },
+    "best_clients": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.best-clients"
+    },
+    "best_testimonial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.best-testimonial"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_company_company_vision_missions",
+  "info": {
+    "name": "companyVisionMission",
+    "icon": "building",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "vision": {
+      "type": "text"
+    },
+    "mission": {
+      "type": "text"
+    },
+    "founderImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

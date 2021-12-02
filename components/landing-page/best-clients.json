@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_landing_page_best_clients",
+  "info": {
+    "name": "best_clients",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "clients": {
+      "collection": "client"
+    }
+  }
+}

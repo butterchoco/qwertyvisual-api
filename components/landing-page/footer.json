@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_landing_page_footers",
+  "info": {
+    "name": "footer",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "company.about"
+    },
+    "social_medias": {
+      "collection": "social-media"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phoneNumber": {
+      "type": "string"
+    }
+  }
+}

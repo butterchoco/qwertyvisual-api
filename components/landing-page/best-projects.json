@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_landing_page_best_projects",
+  "info": {
+    "name": "best_projects",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "projects": {
+      "collection": "project"
+    }
+  }
+}

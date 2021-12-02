@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_landing_page_best_testimonials",
+  "info": {
+    "name": "best_testimonial",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "testimonials": {
+      "collection": "testimonial"
+    }
+  }
+}

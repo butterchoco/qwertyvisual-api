@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_landing_page_abouts",
+  "info": {
+    "name": "companyIntro",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "companyDescription": {
+      "type": "text"
+    },
+    "backgroundImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
