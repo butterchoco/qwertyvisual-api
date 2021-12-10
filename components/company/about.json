@@ -13,7 +13,7 @@
     "companyDescription": {
       "type": "text"
     },
-    "backgroundImage": {
+    "media": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [

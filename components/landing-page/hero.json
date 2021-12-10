@@ -2,15 +2,12 @@
   "collectionName": "components_landing_page_heroes",
   "info": {
     "name": "hero",
-    "icon": "warehouse"
+    "icon": "warehouse",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "subtitle": {
+    "titleOne": {
       "type": "string",
       "required": true
     },
@@ -24,6 +21,14 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "titleThree": {
+      "type": "string"
+    },
+    "repeatableText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.repeatable-text"
     }
   }
 }

@@ -14,7 +14,7 @@
   "attributes": {
     "hero": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "landing-page.hero"
     },
     "about": {

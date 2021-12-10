@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_general_repeatable_texts",
+  "info": {
+    "name": "Repeatable Text",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}
