@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_repeatable_text_with_descriptions",
+  "info": {
+    "name": "repeatableTextWithDescription",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

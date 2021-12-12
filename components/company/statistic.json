@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_company_statistics",
+  "info": {
+    "name": "statistic",
+    "icon": "chart-bar"
+  },
+  "options": {},
+  "attributes": {
+    "clients": {
+      "type": "integer"
+    },
+    "projects": {
+      "type": "integer"
+    },
+    "connections": {
+      "type": "integer"
+    }
+  }
+}

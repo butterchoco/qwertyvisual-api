@@ -26,6 +26,16 @@
       "type": "component",
       "repeatable": false,
       "component": "landing-page.best-clients"
+    },
+    "statistic": {
+      "type": "component",
+      "repeatable": false,
+      "component": "company.statistic"
+    },
+    "companyValues": {
+      "type": "component",
+      "repeatable": false,
+      "component": "company.company-values"
     }
   }
 }
