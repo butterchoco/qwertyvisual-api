@@ -22,11 +22,6 @@
       "repeatable": false,
       "component": "company.company-vision-mission"
     },
-    "best_clients": {
-      "type": "component",
-      "repeatable": false,
-      "component": "landing-page.best-clients"
-    },
     "statistic": {
       "type": "component",
       "repeatable": false,
