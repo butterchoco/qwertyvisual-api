@@ -59,8 +59,8 @@
     },
     "ranking": {
       "type": "integer",
-      "max": 5,
-      "min": 0
+      "min": 1,
+      "default": 1
     }
   }
 }
