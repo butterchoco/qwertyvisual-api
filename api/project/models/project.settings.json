@@ -57,7 +57,7 @@
     "youtubeUrl": {
       "type": "string"
     },
-    "rating": {
+    "ranking": {
       "type": "integer",
       "max": 5,
       "min": 0
